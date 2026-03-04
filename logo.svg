@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <defs>
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C0C0C0"/>
+      <stop offset="50%" style="stop-color:#E8E8E8"/>
+      <stop offset="100%" style="stop-color:#A8A8A8"/>
+    </linearGradient>
+    <linearGradient id="darkGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2A2A2A"/>
+      <stop offset="100%" style="stop-color:#1A1A1A"/>
+    </linearGradient>
+    <linearGradient id="crownGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4D4D4"/>
+      <stop offset="100%" style="stop-color:#A0A0A0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Crown -->
+  <g transform="translate(200, 58)">
+    <!-- Crown base band -->
+    <rect x="-48" y="12" width="96" height="16" rx="3" fill="url(#crownGrad)" stroke="#888" stroke-width="1.5"/>
+    <!-- Crown jewel dots on band -->
+    <circle cx="-28" cy="20" r="3" fill="#1A1A1A" stroke="#999" stroke-width="0.8"/>
+    <circle cx="0" cy="20" r="4" fill="#1A1A1A" stroke="#999" stroke-width="0.8"/>
+    <circle cx="28" cy="20" r="3" fill="#1A1A1A" stroke="#999" stroke-width="0.8"/>
+    <!-- Crown tines -->
+    <polygon points="-48,12 -42,12 -45,-8" fill="url(#crownGrad)" stroke="#888" stroke-width="1.2"/>
+    <polygon points="-24,12 -18,12 -21,-16" fill="url(#crownGrad)" stroke="#888" stroke-width="1.2"/>
+    <polygon points="-3,12 3,12 0,-22" fill="url(#crownGrad)" stroke="#888" stroke-width="1.2"/>
+    <polygon points="18,12 24,12 21,-16" fill="url(#crownGrad)" stroke="#888" stroke-width="1.2"/>
+    <polygon points="42,12 48,12 45,-8" fill="url(#crownGrad)" stroke="#888" stroke-width="1.2"/>
+    <!-- Crown tine tips (spheres) -->
+    <circle cx="-45" cy="-9" r="3.5" fill="url(#crownGrad)" stroke="#888" stroke-width="0.8"/>
+    <circle cx="-21" cy="-17" r="3.5" fill="url(#crownGrad)" stroke="#888" stroke-width="0.8"/>
+    <circle cx="0" cy="-23" r="4" fill="url(#crownGrad)" stroke="#888" stroke-width="0.8"/>
+    <circle cx="21" cy="-17" r="3.5" fill="url(#crownGrad)" stroke="#888" stroke-width="0.8"/>
+    <circle cx="45" cy="-9" r="3.5" fill="url(#crownGrad)" stroke="#888" stroke-width="0.8"/>
+  </g>
+
+  <!-- Shield -->
+  <path d="M 200 82 L 310 110 L 310 260 Q 310 330 200 370 Q 90 330 90 260 L 90 110 Z"
+        fill="url(#darkGrad)" stroke="url(#silverGrad)" stroke-width="3"/>
+
+  <!-- Shield inner border -->
+  <path d="M 200 94 L 298 118 L 298 256 Q 298 320 200 358 Q 102 320 102 256 L 102 118 Z"
+        fill="none" stroke="#666" stroke-width="1" stroke-dasharray="none"/>
+
+  <!-- Bridge arch inside shield -->
+  <g transform="translate(200, 220)">
+    <!-- Bridge arch -->
+    <path d="M -70 40 Q -70 -50 0 -50 Q 70 -50 70 40"
+          fill="none" stroke="url(#silverGrad)" stroke-width="3" stroke-linecap="round"/>
+    <!-- Bridge deck -->
+    <line x1="-78" y1="40" x2="78" y2="40" stroke="url(#silverGrad)" stroke-width="3" stroke-linecap="round"/>
+    <!-- Bridge pillars -->
+    <line x1="-70" y1="40" x2="-70" y2="60" stroke="url(#silverGrad)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="70" y1="40" x2="70" y2="60" stroke="url(#silverGrad)" stroke-width="3" stroke-linecap="round"/>
+    <!-- Bridge base -->
+    <line x1="-78" y1="60" x2="78" y2="60" stroke="url(#silverGrad)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Keystone at top of arch -->
+    <polygon points="-8,-52 8,-52 6,-42 -6,-42" fill="url(#silverGrad)" stroke="#888" stroke-width="0.8"/>
+  </g>
+
+  <!-- KP Letters above the bridge -->
+  <text x="200" y="178" text-anchor="middle" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif"
+        font-size="48" font-weight="bold" fill="url(#silverGrad)" letter-spacing="8">
+    KP
+  </text>
+
+  <!-- Decorative line under KP -->
+  <line x1="160" y1="188" x2="240" y2="188" stroke="#666" stroke-width="1"/>
+
+  <!-- Scroll Banner -->
+  <g transform="translate(200, 410)">
+    <!-- Banner ribbon -->
+    <path d="M -120 -15 Q -100 -20 -80 -15 L 80 -15 Q 100 -20 120 -15 L 115 0 Q 100 5 120 15 L 80 15 Q 60 10 -60 10 Q -80 10 -80 15 L -120 15 Q -100 5 -115 0 Z"
+          fill="url(#darkGrad)" stroke="url(#silverGrad)" stroke-width="1.5"/>
+    <!-- Banner text -->
+    <text x="0" y="5" text-anchor="middle" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif"
+          font-size="16" fill="#D0D0D0" letter-spacing="5" font-variant="small-caps">
+      KINGSMERE PRESS
+    </text>
+  </g>
+
+  <!-- Decorative flourishes flanking the shield -->
+  <!-- Left flourish -->
+  <path d="M 85 140 Q 60 160 55 200 Q 50 230 60 260 Q 55 280 45 290"
+        fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 45 290 Q 40 295 42 300 Q 50 298 48 292"
+        fill="#555" stroke="none"/>
+
+  <!-- Right flourish -->
+  <path d="M 315 140 Q 340 160 345 200 Q 350 230 340 260 Q 345 280 355 290"
+        fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 355 290 Q 360 295 358 300 Q 350 298 352 292"
+        fill="#555" stroke="none"/>
+</svg>
