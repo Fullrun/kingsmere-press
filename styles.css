@@ -276,7 +276,18 @@ body {
   opacity: 0.2;
 }
 
-/* ── About ── */
+/* ── About / Doctrine ── */
+.doctrine-subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--gold-muted);
+  margin-top: 8px;
+}
+
 .about-text {
   max-width: 640px;
   margin: 0 auto;
@@ -293,6 +304,17 @@ body {
 
 .about-text p:last-child {
   margin-bottom: 0;
+}
+
+.doctrine-text {
+  max-width: 720px;
+  text-align: left;
+}
+
+.doctrine-text p {
+  font-size: 1.1rem;
+  line-height: 2;
+  margin-bottom: 20px;
 }
 
 /* ── Pillars ── */

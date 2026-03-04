@@ -44,22 +44,27 @@
     </div>
   </header>
 
-  <!-- About -->
+  <!-- About / Founding Doctrine -->
   <section class="section section-light" id="about">
     <div class="container">
-      <div class="section-label">About the House</div>
-      <h2 class="section-heading">A Publisher Built to Last</h2>
+      <div class="section-label">Founding Doctrine</div>
+      <h2 class="section-heading">The House That Bridges Eras</h2>
+      <p class="doctrine-subtitle">Timeless, Institutional, Generational</p>
       <div class="section-divider"></div>
-      <div class="about-text">
-        <p>
-          Kingsmere Press publishes definitive works on the industries that
-          shaped&mdash;and continue to shape&mdash;civilization. Electricity.
-          Rail. Steel. Automobiles. Artificial intelligence.
-        </p>
-        <p>
-          We are not a trade imprint chasing trends. We are a house of record&mdash;built
-          for authors whose ideas deserve permanence and readers who demand authority.
-        </p>
+      <div class="about-text doctrine-text">
+        <p>Every generation inherits a world it did not build.</p>
+        <p>And every generation must decide whether it will merely manage that inheritance or shape what comes next.</p>
+        <p>This house was founded on a simple conviction: Progress without foundation collapses. Tradition without adaptation decays.</p>
+        <p>For centuries, the great institutions of society&mdash;commerce, education, governance, craft&mdash;were built upon principles that outlived their founders. The printing press was not simply a machine; it was a stabilizing force. It carried law, philosophy, trade knowledge, and the architecture of emerging industries across oceans and across generations.</p>
+        <p>Civilization did not advance by accident. It advanced through stewardship.</p>
+        <p>Today, we stand at another inflection point. Systems are reorganizing at unprecedented speed. Intelligence is becoming distributed. Production, coordination, and exchange are being redefined. Information moves instantly across borders. Markets respond in cycles measured in hours rather than decades. Hotspots ignite like bright stars. Ideas ripple outward and reshape entire industries. Connectivity has collapsed distance.</p>
+        <p>Authority is decentralizing.</p>
+        <p>Information is no longer scarce&mdash;it is ambient.</p>
+        <p>The footing that supported generations feels less fixed. But history reminds us: this is not collapse. It is transition. And transition demands steadiness. We do not advance by dismissing those who built before us. We advance by standing on their shoulders.</p>
+        <p>The next wave of industry will not succeed by abandoning foundational principles&mdash;integrity, discipline, stewardship, craft&mdash;but by embedding them into new systems. The future belongs to those who can navigate both memory and momentum. Those who can hold reverence and audacity in the same hand.</p>
+        <p>Those who understand that enduring structures are not discarded but are strengthened. Civilization is not replaced. It is revised.</p>
+        <p>And in every era of acceleration, there must be institutions that preserve what endures while clarifying what evolves.</p>
+        <p>This house stands in that tradition&mdash;rooted in foundation, oriented toward the horizon, committed to shaping progress that can withstand time.</p>
       </div>
     </div>
   </section>
@@ -220,7 +225,7 @@
       });
     }, { threshold: 0.15 });
 
-    document.querySelectorAll('.pillar, .about-text, .contact-form').forEach(el => {
+    document.querySelectorAll('.pillar, .about-text, .contact-form, .doctrine-text').forEach(el => {
       el.classList.add('fade-in');
       observer.observe(el);
     });
